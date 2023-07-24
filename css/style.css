@@ -61,6 +61,12 @@ header nav a:hover{
     align-items: center;
     
     background-attachment: fixed;
+    @media screen and (max-width: 768px) {
+    .main {
+        background-attachment: scroll; /* Change background attachment for mobile */
+        background-size: auto; /* Adjust the background size for mobile */
+        min-height: 50vh; /* You can adjust the height based on your design */
+    }
  
 }
 
